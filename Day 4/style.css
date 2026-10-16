@@ -1,0 +1,207 @@
+body {
+    background-color: #faf9f8;
+    font-family: Arial, sans-serif;
+    color: #111;
+    padding: 20px;
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+    background-color: #e4dedb;
+    box-shadow: 0 3px 12px #00000015;
+    overflow: hidden;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 25px 7%;}
+
+    .logo {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.1;
+}
+nav {
+    display: flex;
+    gap: 24px;
+}
+
+nav a {
+    color: #111;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+nav a:hover {
+    color: #92796e;
+}
+.navbar input {
+    width: 180px;
+    padding: 9px 12px;
+    border: none;
+    border-radius: 25px;
+    background-color: #a38a80;
+    color: white;
+    outline: none;
+}
+
+.navbar input::placeholder {
+    color: white;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px 7% 60px;
+}
+
+.hero-text {
+    flex: 1;
+}
+.hero-text h1 {
+    font-size: clamp(32px, 4vw, 45px);
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+.btn {
+    display: inline-block;
+    background-color: #a38a80;
+    color: white;
+    padding: 13px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #80675d;
+}
+.hero-image {
+    flex: 0 1 43%;
+}
+
+.hero-image img {
+    display: block;
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 35px;
+}
+.coffee-section {
+    margin: 0 7%;
+    padding: 22px 25px 35px;
+    background-color: #a38a80;
+    border-radius: 35px 35px 0 0;
+    text-align: center;
+}
+
+.coffee-section h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+.coffee-cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    align-items: start;
+}
+
+.coffee-card {
+    background-color: #c5b6ae;
+    padding: 20px 12px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.coffee-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.coffee-card h3 {
+    margin: 12px 0 8px;
+}
+
+.coffee-card p {
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+.coffee-card .price {
+    font-weight: bold;
+}
+
+/* About section */
+.about {
+    padding: 40px 7%;
+    text-align: center;
+}
+
+.about h2 {
+    margin-bottom: 15px;
+}
+
+.about p {
+    line-height: 1.7;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+}
+@media (max-width: 750px) 
+    body{
+        padding: 8px;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+     nav {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .navbar input {
+        width: 100%;
+    }
+        .hero {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 25px 20px 35px;
+        gap: 25px;
+    }
+
+    .hero-image {
+        flex-basis: auto;
+    }
+        .hero-image img {
+        height: 250px;
+    }
+
+    .coffee-section {
+        margin: 0 15px;
+        padding: 20px 12px;
+    }
+
+    .coffee-cards {
+        grid-template-columns: 1fr;
+    }
+    .coffee-card img {
+        height: 200px;
+    }
+
