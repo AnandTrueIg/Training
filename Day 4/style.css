@@ -165,7 +165,7 @@ footer {
 @media (max-width: 750px) 
     body{
         padding: 8px;
-    }
+    },=
 
     .navbar {
         flex-wrap: wrap;
