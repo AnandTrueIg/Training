@@ -1,0 +1,14 @@
+body{
+
+    background-color:rgb(255, 144, 162)
+}
+
+button{
+    background-color:rgb(202, 60, 60);
+    color:rgb(0, 0, 0);
+}
+
+.red {
+    color: red;
+}
+

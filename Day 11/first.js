@@ -131,18 +131,18 @@
 
 //=====================
 
-// const numbers = [10,20,30,40,50,60]
+const numbers = [10,20,30,40,50,60]
 
-// const total = numbers.reduce(function(name, number) {
-//     return name + number;
-// },0);
+const total = numbers.reduce(function(number) {
+    return number;
+},0);
 
-// console.log(total);
+console.log(total);
 
 
 
 //==============================================Pratice========================================================
-///============Quation NO.1=============
+///============Question NO.1=============
 
 
 // let num= [1,2,3,4,5]
@@ -153,7 +153,7 @@
 
 
 
-//=============Quation NO.2
+//=============Question NO.2
 
 // let num= [1,2,3,4,5,6]
 
@@ -162,7 +162,7 @@
 // })
 // console.log(result)
 
-//==============Quation NO.3
+//==============Question NO.3
 
 // let Filter =[1,2,3,4,5,6,7,15,18]
 
@@ -171,7 +171,7 @@
 // })
 // console.log(result)
 
-//==============Quation NO.4
+//==============Question NO.4
 
 // let nums = [10,20,30,40,50,60,70,80,90]
 
@@ -181,7 +181,7 @@
 // })
 // console.log(final)
 
-//=================Quation NO.5
+//=================Question NO.5
 
 let score = [
     {name:"Anand", marks:90},

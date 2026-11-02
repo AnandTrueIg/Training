@@ -105,25 +105,25 @@
 
 
 
-const city ="Indore"
-function Showcity(){
-    console.log(city)
-}
-Showcity()
+// const city ="Indore"
+// function Showcity(){
+//     console.log(city)
+// }
+// Showcity()
 
-let num = (nums)=>{
-    return nums*nums
-}
-console.log(num(5))
+// let num = (nums)=>{
+//     return nums*nums
+// }
+// console.log(num(5))
 
 
-let a =52
-let c = 36
+// let a =52
+// let c = 36
 
-try{
-    console.log(b)
-}catch(error){
-console.log("bro i am not here",error)
-}finally{
-    console.log("end game")
-}
+// try{
+//     console.log(b)
+// }catch(error){
+// console.log("bro i am not here",error)
+// }finally{
+//     console.log("end game")
+// }
