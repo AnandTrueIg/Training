@@ -105,4 +105,4 @@ changebtn.addEventListener("click", function(){
  removebtn.addEventListener("click",function(){
     let paragraph =document.getElementById("Mypara")
     paragraph.remove()
- })
+ });
